@@ -10,6 +10,7 @@ namespace _2037048_W02
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("HI");
         }
     }
 }
