@@ -75,9 +75,28 @@ namespace _2037048_W02
             }
             */
 
-            int ch = Convert.ToInt32(Console.ReadLine());
+            char ch = Convert.ToChar(Console.ReadLine());
 
             if (ch == 'A' || ch == 'a')
+            {
+                Console.WriteLine("Vowel [a:]");
+            }
+            else if (ch == 'E' || ch == 'e')
+            {
+                Console.WriteLine("Vowel [e:]");
+            }
+            else if (ch == 'I' || ch == 'i')
+            {
+                Console.WriteLine("Vowel [i:]");
+            }
+            else if (ch == 'O' || ch == 'o')
+            {
+                Console.WriteLine("Vowel [o:]");
+            }
+            else if (ch == 'U' || ch == 'u')
+            {
+                Console.WriteLine("Vowel [u:]");
+            }
         }
     }
 }
